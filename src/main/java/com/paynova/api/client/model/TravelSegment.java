@@ -269,7 +269,6 @@ public abstract class TravelSegment extends ApiPropertyContainer{
 	 * Add a Ticket 
 	 * @param ticket
 	 * @return the list of Ticket's
-	 * @see {@link #setTickets(ApiPropertyList) setTickets}
 	 */
 	public  ApiPropertyList<TravelTicket> addTicket(TravelTicket ticket) {
 		tickets.add(ticket);

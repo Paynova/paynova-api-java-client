@@ -54,8 +54,7 @@ public class TravelData  extends ApiPropertyContainer {
 	/**
 	 * Add a TravelSegment
 	 * @param travelSegment
-	 * @return the list of TravelSegment's
-	 * @see {@link #setTravelSegments(ApiPropertyList) setTravelSegments}
+	 * @return ApiPropertyList<TravelSegment>
 	 */
 	public ApiPropertyList<TravelSegment> addTravelSegment(TravelSegment travelSegment) {
 		travelSegments.add(travelSegment);

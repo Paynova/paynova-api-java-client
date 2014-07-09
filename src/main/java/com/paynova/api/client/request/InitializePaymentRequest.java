@@ -118,7 +118,7 @@ public class InitializePaymentRequest extends Request {
 	 * One or more payment methods to display to the customer. If you do not send a value, all 
 	 * configured and available payment methods will be displayed.
 	 * @param paymentMethods
-	 * @return
+	 * @return ApiPropertyList<PaymentMethod>
 	 */
 	public ApiPropertyList<PaymentMethod> setPaymentMethods(ApiPropertyList<PaymentMethod> paymentMethods) {
 		this.paymentMethods = paymentMethods;
@@ -128,8 +128,7 @@ public class InitializePaymentRequest extends Request {
 	/**
 	 * Add a payment method
 	 * @param paymentMethod
-	 * @return the list of payment methods
-	 * @see {@link #setPaymentMethods(ApiPropertyList) setPaymentMethods}
+	 * @return ApiPropertyList<PaymentMethod>
 	 */
 	public ApiPropertyList<PaymentMethod> addPaymentMethod(PaymentMethod paymentMethod) {
 		paymentMethods.add(paymentMethod);
@@ -166,7 +165,7 @@ public class InitializePaymentRequest extends Request {
 	
 	/**
 	 * The channel of payment.
-	 * @param paymentChannel
+	 * @param channel
 	 * @return the current InitializePaymentRequst object
 	 */
 	public InitializePaymentRequest setPaymentChannelId(PaymentChannel channel) {
@@ -177,7 +176,6 @@ public class InitializePaymentRequest extends Request {
 	/**
 	 * The channel of payment see helper enum PaymentChannel
 	 * @param paymentChannelId
-	 * @see PaymentChannel
 	 * @return the current InitializePaymentRequst object
 	 */
 	public InitializePaymentRequest setPaymentChannelId(int paymentChannelId) {
@@ -209,7 +207,6 @@ public class InitializePaymentRequest extends Request {
 	 * Add CustomData to the list
 	 * @param cd the CustomData to add
 	 * @return the list of CustomData
-	 * @see {@link #setCustomData(ApiPropertyList) setCustomData}
 	 */
 	public ApiPropertyList<CustomData> addCustomData(CustomData cd) {
 		customData.add(cd);
@@ -346,7 +343,6 @@ public class InitializePaymentRequest extends Request {
 	 * Add LineItem to the list
 	 * @param lineItem the LineItem to add
 	 * @return the list of LineItem's
-	 * @see {@link #setLineItems(ApiPropertyList) setLineItems}
 	 */
 	public ApiPropertyList<LineItem> addLineItem(LineItem lineItem) {
 		lineItems.add(lineItem);

@@ -115,7 +115,6 @@ public interface PaynovaClient {
      * The Remove Customer Profile service is used to remove a customer profile and all related data.
      * @param profileId the String profileId 
      * @throws PaynovaHttpException
-     * @return a GetCustomerProfileResponse
      */
     public void removeCustomerProfile(String profileId);
 
@@ -123,7 +122,6 @@ public interface PaynovaClient {
      * The Remove Customer Profile service is used to remove a customer profile and all related data.
      * @param request a GetCustomerProfileRequest object
      * @throws PaynovaHttpException
-     * @return a GetCustomerProfileResponse
      */
     public void removeCustomerProfile(RemoveCustomerProfileRequest request);
     
@@ -138,7 +136,7 @@ public interface PaynovaClient {
     /**
      * The Remove Customer Profile Card service is used to remove a stored card from a customer profile.
      * @throws PaynovaHttpException
-     * @param a RemoveCustomerProfileCardRequest
+     * @param request a RemoveCustomerProfileCardRequest object
      */
     public void removeCustomerProfileCard(RemoveCustomerProfileCardRequest request);
 

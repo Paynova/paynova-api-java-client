@@ -35,7 +35,7 @@ public class FinalizeAuthorizationResponse extends Response {
 	/**
 	 * The amount that previously have been finalized with the same orderId/transactionId
 	 * and is in a pending state
-	 * @return
+	 * @return BigDecimal the totalAmountPendingFinalization
 	 */
 	public BigDecimal getTotalAmountPendingFinalization() {
 		return totalAmountPendingFinalization;

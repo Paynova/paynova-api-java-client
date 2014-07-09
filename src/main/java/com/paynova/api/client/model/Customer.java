@@ -142,7 +142,7 @@ public class Customer extends ApiPropertyContainer {
 	/**
 	 * The Goverment id (in Sweden personnummer, in the US social security number)
 	 * @param governmentId
-	 * @return
+	 * @return the current Customer object 
 	 */
 	public Customer setGovernmentId(String governmentId) {
 		this.governmentId = governmentId;

@@ -219,7 +219,7 @@ public class InterfaceOptions extends ApiPropertyContainer {
 	 * A URL to your system which we can send Event Hook Notifications (EHNs) to. If this parameter is 
 	 * provided, it will be used instead of any statically configured EHN URLs.
 	 * @param urlCallback
-	 * @return
+	 * @return the current InterfaceOptions object
 	 */
 	public InterfaceOptions setUrlCallback(URL urlCallback) {
 		this.urlCallback = urlCallback;

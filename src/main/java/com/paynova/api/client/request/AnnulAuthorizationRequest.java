@@ -120,7 +120,6 @@ public class AnnulAuthorizationRequest extends Request {
 	 * Add LineItem to the list
 	 * @param lineItem the LineItem to add
 	 * @return the list of LineItem's
-	 * @see {@link #setLineItems(ApiPropertyList) setLineItems}
 	 */
 	public ApiPropertyList<LineItem> addLineItem(LineItem lineItem) {
 		lineItems.add(lineItem);

@@ -118,7 +118,6 @@ public class CreateOrderRequest extends Request{
 	}
 	
 	/**
-	 * @see {@link #setCurrencyCode(String)}
 	 * @param currencyCode enum class CurrencyCode
 	 * @return the current CreateOrderRequest object
 	 */
@@ -129,7 +128,7 @@ public class CreateOrderRequest extends Request{
 	
 	/**
 	 * 
-	 * @return the salesChannel
+	 * @return String the salesChannel
 	 */
 	public String getSalesChannel() {
 		return salesChannel;
@@ -243,8 +242,7 @@ public class CreateOrderRequest extends Request{
 	/**
 	 * Add LineItem to the list
 	 * @param lineItem the LineItem to add
-	 * @return the list of LineItem's
-	 * @see {@link #setLineItems(ApiPropertyList) setLineItems}
+	 * @return ApiPropertyList<LineItem> the list of LineItem's
 	 */
 	public ApiPropertyList<LineItem> addLineItem(LineItem lineItem) {
 		lineItems.add(lineItem);

@@ -71,7 +71,7 @@ public class DigestValidator {
 	 * Verify the DIGEST (pn-digest) sent in the header of a EVENT HOOK
 	 * return true / false 
 	 * @param secretKey associated with the merchant account
-	 * @param headerPN the value of the header key pn-digest, received from the API server in the response header
+	 * @param pnDigest the value of the header key pn-digest, received from the API server in the response header
 	 * @param rawPOSTdata the raw POST data received from the API server in the response body
 	 * @return boolean if the pn-digest is verified
 	 */
