@@ -1,0 +1,9 @@
+bin/
+target/
+.git
+.classpath
+.settings
+*~
+.DS_Store
+.project
+*.md.html
