@@ -44,7 +44,7 @@ public class InterfaceOptions extends ApiPropertyContainer {
 	 * payment or running out of payment attempts.
      * @param urlRedirectPending 	the URL on your website to which we should redirect the customer upon a payment being in either 
 	 * an indeterminable or pending state. Payment methods which are not "real-time" 
-	 * (for example, Laschrift/ELV, †berweisung) use this status.
+	 * (for example, Laschrift/ELV, Uberweisung) use this status.
      */
 	public InterfaceOptions(int interfaceId, String customerLanguageCode, URL urlRedirectSuccess, URL urlRedirectCancel, URL urlRedirectPending) {
 		this.setInterfaceId(interfaceId);
@@ -198,7 +198,7 @@ public class InterfaceOptions extends ApiPropertyContainer {
 	/**
 	 * The URL on your website to which we should redirect the customer upon a payment being in either 
 	 * an indeterminable or pending state. Payment methods which are not "real-time" 
-	 * (for example, Laschrift/ELV, †berweisung) use this status.
+	 * (for example, Laschrift/ELV, Uberweisung) use this status.
 	 * @param urlRedirectPending
 	 * @return the current InterfaceOptions object
 	 */
