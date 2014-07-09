@@ -7,3 +7,5 @@ target/
 .DS_Store
 .project
 *.md.html
+*.xml.releaseBackup
+release.properties
