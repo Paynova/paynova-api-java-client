@@ -61,7 +61,7 @@ public class FinalizeAuthorizationResponse extends Response {
 	/**
 	 * Paynova's transaction id for the finalization. Note that for some transactions, 
 	 * this id may be the same as the original authorization transaction id.
-	 * @return
+	 * @return String
 	 */
 	public String getTransactionId() {
 		return transactionId;

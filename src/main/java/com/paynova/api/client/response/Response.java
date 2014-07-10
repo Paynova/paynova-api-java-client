@@ -34,7 +34,7 @@ public abstract class Response implements ApiProperty{
 	/**
 	 * The status object returned from the API REST server. Containing
 	 * information about the request
-	 * @return
+	 * @return Status
 	 */
 	public Status getStatus() {
 		return status;
