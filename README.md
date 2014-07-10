@@ -23,8 +23,14 @@ To run the tests with maven:
 mvn test
 ```
 
-##Live integration tests
-In the property file src/test/resources/paynova-test.properties there is a property that can be switch to do true which enables live integration testing against the Paynova API testservers. In the same file endpoint, username and password needs to be set with your Paynova credentials, received from Paynova support.
+#As dependency
+```
+<dependency>
+	<groupId>com.paynova.api.client</groupId>
+	<artifactId>paynova-java</artifactId>
+	<version>put version number here</version>
+</dependency>
+```
 
 ##Quick example
 Below example creates an order at Paynova.
