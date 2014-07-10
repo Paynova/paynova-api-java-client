@@ -3,7 +3,7 @@
   	<groupId>com.paynova.api.client</groupId>
   	<artifactId>paynova-java</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>paynova-java</name>
 	<description>A lightweight client that can be used to consume Paynova's REST API services</description>
 	<url>http://www.paynova.com</url>
