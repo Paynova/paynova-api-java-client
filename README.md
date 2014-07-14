@@ -1,4 +1,4 @@
-#Paynova API PHP Client
+#Paynova API JAVA Client
 
 This is an overview of the Paynova API Java Client using [Paynova REST API][] (Aero). More in-depth information can be found in the [Wiki][].
 [Paynova REST API]: http://docs.paynova.com/display/API/Paynova+API+Home
