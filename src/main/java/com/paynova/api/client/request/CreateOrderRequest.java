@@ -28,7 +28,7 @@ public class CreateOrderRequest extends Request{
 	
 	private ApiPropertyList<LineItem> lineItems = new ApiPropertyList<LineItem>();
 	
-	private String orderDescrption;
+	private String orderDescription;
 	
 	/**
 	 * Class constructor
@@ -274,18 +274,18 @@ public class CreateOrderRequest extends Request{
 	 * 
 	 * @return the orderDescription
 	 */
-	public String getOrderDescrption() {
-		return orderDescrption;
+	public String getOrderDescription() {
+		return orderDescription;
 	}
 	
 	/**
 	 * A free-text field which describes the order. This information is stored 
 	 * on the transaction level.
-	 * @param orderDescrption
+	 * @param orderDescription
 	 * @return the current CreateOrderRequest object
 	 */
-	public CreateOrderRequest setOrderDescrption(String orderDescrption) {
-		this.orderDescrption = orderDescrption;
+	public CreateOrderRequest setOrderDescription(String orderDescription) {
+		this.orderDescription = orderDescription;
 		return this;
 	}
 	
